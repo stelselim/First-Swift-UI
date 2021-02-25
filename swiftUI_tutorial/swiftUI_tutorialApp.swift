@@ -7,14 +7,17 @@
 
 import SwiftUI
 
+
 @main
 struct swiftUI_tutorialApp: App {
-    let persistenceController = PersistenceController.shared
-
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            HStack {
+                ContentView()
+                ContentView()
+            }
+            
         }
     }
 }
