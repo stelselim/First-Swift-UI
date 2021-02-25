@@ -28,7 +28,7 @@ struct ContentView: View {
                     .fontWeight(.bold)
                     .padding([.top, .bottom, .trailing])
                     .foregroundColor(Color(hue: 0.682, saturation: 0.863, brightness: 0.912))
-                Text("Hello SWIFT UI")
+                Text("Hello UI")
                     .font(.title)
                     .fontWeight(.bold)
                     .multilineTextAlignment(.center)
