@@ -13,11 +13,9 @@ struct swiftUI_tutorialApp: App {
     
     var body: some Scene {
         WindowGroup {
-            HStack {
-                ContentView()
+            NavigationView{
                 ContentView()
             }
-            
         }
     }
 }

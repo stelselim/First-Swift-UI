@@ -10,34 +10,20 @@ import CoreData
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            HStack {
-                Text("Hello SWIFT UI")
-                    .font(.title)
-                    .padding(.vertical)
-                    .foregroundColor(.red)
-                Text("Hello SWIFT UI")
-                    .font(.title)
-                    .padding(.vertical)
-                    .foregroundColor(.red)
-                
+        VStack() {
+            HStack{
+            Text("Hello SWIFT UI")
+                .font(.title)
+                .padding(.vertical)
+                .foregroundColor(.red)
+            FirstImage()
+                .frame(width: 241, height: 250, alignment: .bottom)
+            
             }
-            HStack {
-                Text("Hello SWIFT UI")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                    .padding([.top, .bottom, .trailing])
-                    .foregroundColor(Color(hue: 0.682, saturation: 0.863, brightness: 0.912))
-                Text("Hello UI")
-                    .font(.title)
-                    .fontWeight(.bold)
-                    .multilineTextAlignment(.center)
-                    .padding(.all, 10.0)
-                    .foregroundColor(.red)
-                
-            }
+            Spacer()
         }
-
+        .background(Color.red)
+        
     }
 }
 
@@ -45,5 +31,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View{
         ContentView()
+        
     }
 }

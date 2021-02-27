@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		425CFAB025EA7F7E0023B9D1 /* FirstImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425CFAAF25EA7F7E0023B9D1 /* FirstImage.swift */; };
 		42E5ED6F25E85161008D0B15 /* swiftUI_tutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E5ED6E25E85161008D0B15 /* swiftUI_tutorialApp.swift */; };
 		42E5ED7125E85161008D0B15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E5ED7025E85161008D0B15 /* ContentView.swift */; };
 		42E5ED7325E85162008D0B15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E5ED7225E85162008D0B15 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		425CFAAF25EA7F7E0023B9D1 /* FirstImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstImage.swift; sourceTree = "<group>"; };
 		42E5ED6B25E85161008D0B15 /* swiftUI_tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftUI_tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E5ED6E25E85161008D0B15 /* swiftUI_tutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUI_tutorialApp.swift; sourceTree = "<group>"; };
 		42E5ED7025E85161008D0B15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				42E5ED7C25E85162008D0B15 /* Info.plist */,
 				42E5ED7925E85162008D0B15 /* swiftUI_tutorial.xcdatamodeld */,
 				42E5ED7425E85162008D0B15 /* Preview Content */,
+				425CFAAF25EA7F7E0023B9D1 /* FirstImage.swift */,
 			);
 			path = swiftUI_tutorial;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42E5ED7825E85162008D0B15 /* Persistence.swift in Sources */,
+				425CFAB025EA7F7E0023B9D1 /* FirstImage.swift in Sources */,
 				42E5ED7125E85161008D0B15 /* ContentView.swift in Sources */,
 				42E5ED6F25E85161008D0B15 /* swiftUI_tutorialApp.swift in Sources */,
 				42E5ED7B25E85162008D0B15 /* swiftUI_tutorial.xcdatamodeld in Sources */,
